@@ -29,9 +29,9 @@ while [ "$nodes_connected" -lt "$node_count" ]; do
 done
 
 # Ensure key environmental variables are set
-export SU2_DATA=/data/SU2
-export SU2_HOME=/data/SU2/SU2
-export SU2_RUN=/data/SU2/SU2/bin
+export SU2_DATA=/home/nimbix/data/SU2/
+export SU2_HOME=/home/nimbix/data/SU2/SU2
+export SU2_RUN=/home/nimbix/data/SU2/SU2/bin
 export PATH=$PATH:$SU2_RUN
 export PYTHONPATH=$PYTHONPATH:$SU2_RUN
 # Set environmental variable to allow multi-node use
